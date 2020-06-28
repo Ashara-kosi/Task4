@@ -1,0 +1,160 @@
+.banner {
+    background-image: url(../images/banner.png);
+    height: 702px;
+}
+.banner1{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
+.latis{
+    font-family:;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 50px;
+    display: flex;
+    align-items:top;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.latis1{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    
+}
+.dento{
+    color: white !important;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+}
+.naving{
+    color: white !important;
+    text-align: right;
+    font-family: Muli;
+}
+
+.book{
+    align-content: center;
+    align-items: flex-end;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    width: 212px;
+    height: 49px;
+    padding: 15px 30px;
+    align-items:baseline;
+    background-color: #FFFFFF;
+    color: black;
+    font-size: small;
+    
+}
+.section1{
+    background-color: white;
+}
+.subsection{
+    display: flex;
+    flex-direction: row;
+}
+
+.image1 img{
+    height: auto;
+    width: 410px;
+    padding: 46px;
+    max-width:100%
+}
+.image2 img{
+    height: auto;
+    width: 500px;
+    padding-right: 20px;
+    max-width:100%;
+}
+.aboutus{
+    text-align: left;
+    justify-content: right;
+    
+}
+.service{
+
+}
+.started{
+    background: #3E3655;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.stage1 img{
+    width: 500px;
+    padding: 20px;
+    align-self: flex-end;
+    max-width:100%;
+    height: auto;
+}
+.stage0{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+.tooth img{
+    padding: 20px;
+    width: 450px;
+    max-width:100%;
+
+}
+.tooth1{
+    margin-left: 87px;
+    padding: 68px;
+    
+}
+.book1{
+    text-align: center;
+    width: 212px;
+    height: 49px;
+    padding: 15px 30px;
+    align-items:baseline;
+    background-color: #3E3655;
+    color: white;
+    font-size: small;
+}
+.letter{
+    align-content: center;
+    text-align: center;
+    width: fit-content;
+    height: 250px;
+    padding: 30px;
+}
+.footer{
+    background: #3E3655;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 460px) { 
+    .head1{
+        background-color:#3E3655 ;
+        background-image: none;
+        width: 100%;
+    
+    }
+
+}
+
